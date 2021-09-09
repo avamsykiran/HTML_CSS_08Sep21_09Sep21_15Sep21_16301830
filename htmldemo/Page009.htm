@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Nine - Form Elements</title>
+    </head>
+    <body>
+        <h4>Form Elements</h4>
+        <form action="urlWhereTheDataHasToBeSubmitted" method="GET"> 
+            <div>
+                <label> Full Name: </label>
+                <input type="text" />
+            </div>
+            <div>
+                <label> Password: </label>
+                <input type="password" />
+            </div>
+            <div>
+                <label> 
+                    <input type="checkbox" />
+                    I am married
+                </label>
+            </div>
+            <div>
+                <label> Whare are you? </label>
+                <label><input type="radio" name="gender" />Man</label>
+                <label><input type="radio" name="gender" />Woman</label>
+            </div>
+            <div>
+                <label> Qualfiication: </label>
+                <label><input type="radio" name="qual" />Under Graduate</label>
+                <label><input type="radio" name="qual" />Graduate</label>
+                <label><input type="radio" name="qual" />Post Graduate</label>
+                <label><input type="radio" name="qual" />Doctarate</label>
+            </div>
+            <div>
+                <label>Photo File :</label>
+                <input type="file" />
+            </div>
+            <div>
+                <label>Expected Salary :</label>
+                <input type="number" />
+            </div>
+            <div>
+                <label>Date Of Birth:</label>
+                <input type="date" />
+            </div>
+            <div>
+                <label>Date And Time of Joining :</label>
+                <input type="datetime-local" />
+            </div>
+            <div>
+                <label>How far is your residence from the office?</label>
+                 1KM <input type="range" min="1" max="100"/> 100 KM
+            </div>
+            <div>
+                <label>Prefered Location</label>
+                <select>
+                    <option value="HYD">Hyderabad</option>
+                    <option value="DEL">Delhi</option>
+                    <option value="CHI">Chennai</option>
+                    <option value="VYZ">Vijayawada</option>
+                    <option value="VZM">Vijayanagaram</option>
+                </select>
+            </div>
+            <!--this is a comment-->
+            <div>
+                <label>Hobbies</label>
+                <select multiple>
+                    <option value="sports">SPORTS</option>
+                    <option value="games">GAMES</option>
+                    <option value="movies">MOVIES</option>
+                    <option value="gym">GYM</option>
+                </select>
+            </div>
+            <div>
+                <label>Address</label>
+                <textarea cols="50" rows="4" ></textarea>
+            </div>
+            <div>
+                <button>When Clicked Submits the form</button>
+                <button type="reset">When Clicked resets the form</button>
+                <button type="button">When Clicked does nothing becasue its onClick event is not handled</button>
+            </div>
+        </form>
+    </body>
+</html>
